@@ -26,6 +26,7 @@ async function getData() {
 getData()
 </script>
 
+<h3>Testing out Fetch API</h3>
 {#await getData()}
 <p>Loading...</p>
 {:then data}
