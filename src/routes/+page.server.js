@@ -1,7 +1,7 @@
 import { json } from '@sveltejs/kit'
 
 export async function load() {
-  const response = await fetch('https://jsonplaceholder.typicode.com/users')
+  const response = await fetch('https://jsonplaceholder.typicode.com/userszz')
 
   // ok: true or false
   // status: 200 (success), 404 (not found) etc
